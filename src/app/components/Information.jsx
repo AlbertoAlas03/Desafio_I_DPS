@@ -6,7 +6,7 @@ export const Informacion = () => {
     return (
         <div className="container marketing">
             <Title />
-            {data[0].empresas.map((empresa) => (
+            {data[0].empresas.map((empresa) => ( //iteración de data, ingresamos al primer elemento del array
                 <div className="row featurette" key={empresa.id}>
                     <div className="col-md-7">
                         <h1 className="featurette-heading fw-normal lh-1"><b>{empresa.titulo}</b></h1><br />
