@@ -9,7 +9,7 @@ export const Informacion = () => {
             {data[0].empresas.map((empresa) => (
                 <div className="row featurette" key={empresa.id}>
                     <div className="col-md-7">
-                        <h1 className="featurette-heading fw-normal lh-1">{empresa.titulo}</h1><br />
+                        <h1 className="featurette-heading fw-normal lh-1"><b>{empresa.titulo}</b></h1><br />
                         <h2 className="featurette-heading fw-normal lh-1">Descripción</h2><br />
                         <p className="lead">{empresa.descripcion}</p><br />
                         <h3 className="featurette-heading fw-normal lh-1">Caracteristicas</h3><br />

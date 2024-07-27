@@ -6,7 +6,7 @@ export const Title = () => {
             <hr className="featurette-divider" />
 
             {data.map(Description => (
-                <h2 className="featurette-heading fw-normal lh-1 text-center">{Description.descripcion}</h2>
+                <h2 className="featurette-heading fw-normal lh-1 text-center"><b>{Description.descripcion}</b></h2>
             ))}
 
             <hr className="featurette-divider" />
